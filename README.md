@@ -574,6 +574,11 @@ ${1:document}.classList.toggle('${2:class}');
 ```js
 ${1:document}.classList.remove('${2:class}');
 ```
+### `cc⇥` classList.contains
+
+```js
+${1:document}.classList.contains('${2:class}');
+```
 
 ### `ga⇥` getAttribute
 

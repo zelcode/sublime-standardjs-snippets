@@ -2,6 +2,6 @@
   <content><![CDATA[
 Array.from(${1:document}.querySelectorAll('${2:selector}'))
 ]]></content>
-  <tabTrigger>qsa</tabTrigger>
+  <tabTrigger>qa</tabTrigger>
   <scope>source.js,source.jsx</scope>
 </snippet>

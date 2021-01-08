@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
-${1:document}.classList.add('${2:class}')
+${1:document}.classList.contains('${2:class}')$0
 ]]></content>
-  <tabTrigger>ca</tabTrigger>
+  <tabTrigger>cc</tabTrigger>
   <scope>source.js,source.jsx</scope>
 </snippet>

@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+${1:document}.addEventListener('${2:click}', ${3:fn}${4:, false})$0
+]]></content>
+  <tabTrigger>aef</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>Add event function</description>
+</snippet>
