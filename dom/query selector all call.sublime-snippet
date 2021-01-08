@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+Array.prototype.slice.call(${1:document}.querySelectorAll('${2:selector}'))$0
+]]></content>
+  <tabTrigger>qr</tabTrigger>
+  <scope>source.js</scope>
+  <description>Call querySelectorAll</description>
+</snippet>

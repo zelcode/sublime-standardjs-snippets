@@ -502,100 +502,108 @@ ${1:document}.addEventListener('${2:event}', ${3:ev} => {
   ${0}
 })
 ```
+#### `ae⇥` addEventListener function
+```js
+${1:document}.addEventListener('${2:click}', ${3:function}${4:, false})$0
+```
 
 #### `rel⇥` removeEventListener
 ```js
-${1:document}.removeEventListener('${2:event}', ${3:listener})
+${1:document}.removeEventListener('${2:event}', ${3:listener})$0
 ```
 
 #### `gi⇥` getElementById
 ```js
-${1:document}.getElementById('${2:id}')
+${1:document}.getElementById('${2:id}')$0
 ```
 
 #### `gc⇥` getElementsByClassName
 ```js
-Array.from(${1:document}.getElementsByClassName('${2:class}'))
+Array.from(${1:document}.getElementsByClassName('${2:class}'))$0
 ```
 
 #### `gt⇥` getElementsByTagName
 ```js
-Array.from(${1:document}.getElementsByTagName('${2:tag}'))
+Array.from(${1:document}.getElementsByTagName('${2:tag}'))$0
 ```
 
-#### `qs⇥` querySelector
+#### `q⇥` querySelector
 ```js
-${1:document}.querySelector('${2:selector}')
+${1:document}.querySelector('${2:selector}')$0
 ```
 
-#### `qsa⇥` querySelectorAll
+#### `qa⇥` querySelectorAll
 ```js
-Array.from(${1:document}.querySelectorAll('${2:selector}'))
+Array.from(${1:document}.querySelectorAll('${2:selector}'))$0
+```
+#### `qr⇥` querySelectorAll call
+```js
+Array.prototype.slice.call(${1:document}.querySelectorAll('${2:selector}'))$0
 ```
 
-### `cdf⇥` createDocumentFragment
+### `cf⇥` createDocumentFragment
 
 ```js
-${1:document}.createDocumentFragment(${2:elem});
+${1:document}.createDocumentFragment(${2:elem});$0
 ```
 
-### `cel⇥` createElement
+### `ce⇥` createElement
 
 ```js
-${1:document}.createElement(${2:elem});
+${1:document}.createElement(${2:elem});$0
 ```
 
 ### `ac⇥` appendChild
 
 ```js
-${1:document}.appendChild(${2:elem});
+${1:document}.appendChild(${2:elem});$0
 ```
 
 ### `rc⇥` removeChild
 
 ```js
-${1:document}.removeChild(${2:elem});
+${1:document}.removeChild(${2:elem});$0
 ```
 
-### `cla⇥` classList.add
+### `ca⇥` classList.add
 
 ```js
-${1:document}.classList.add('${2:class}');
+${1:document}.classList.add('${2:class}');$0
 ```
 
 ### `ct⇥` classList.toggle
 
 ```js
-${1:document}.classList.toggle('${2:class}');
+${1:document}.classList.toggle('${2:class}');$0
 ```
 
 ### `cr⇥` classList.remove
 
 ```js
-${1:document}.classList.remove('${2:class}');
+${1:document}.classList.remove('${2:class}');$0
 ```
 ### `cc⇥` classList.contains
 
 ```js
-${1:document}.classList.contains('${2:class}');
+${1:document}.classList.contains('${2:class}');$0
 ```
 
 ### `ga⇥` getAttribute
 
 ```js
-${1:document}.getAttribute('${2:attr}');
+${1:document}.getAttribute('${2:attr}');$0
 ```
 
 ### `sa⇥` setAttribute
 
 ```js
-${1:document}.setAttribute('${2:attr}', ${3:value});
+${1:document}.setAttribute('${2:attr}', ${3:value});$0
 ```
 
 ### `ra⇥` removeAttribute
 
 ```js
-${1:document}.removeAttribute('${2:attr}');
+${1:document}.removeAttribute('${2:attr}');$0
 ```
 
 ### Node.js
