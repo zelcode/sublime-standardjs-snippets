@@ -53,7 +53,7 @@ __Yes!, no semicolons:__
 let ${1:name} = ${2:value}
 ```
 
-#### `co⇥` const assignment
+#### `c⇥` const assignment
 ```js
 const ${1:name} = ${2:value}
 ```
